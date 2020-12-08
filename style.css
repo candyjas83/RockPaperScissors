@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Bangers', cursive;
+  font-size: 16px;
+}
+.container {
+
+  height: 100vh;
+  top: 50%;
+  bottom: 50%;
+  background-image: linear-gradient(to right bottom, rgba(0, 255, 255, 0.51),rgba(4, 120, 85, 0.54));
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.user__side {
+  margin-top: 5rem;
+  height: 35rem;
+  width: 17rem;
+  background-image: linear-gradient(to right bottom, rgba(0, 255, 255, 0.51), rgba(0, 255, 0, 0.52));
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message__center {
+  height: 35rem;
+  width: 22rem;
+  margin-top: 5rem;
+  background-color: #F5FFFA;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.message__input {
+  height: 10rem;
+  width: 18rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+
+.btn__selection {
+  height: 5rem;
+  width: 20rem;
+  padding-top: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+button {
+  height: 2rem;
+  width: 6rem;
+  border: none;
+  background-image: linear-gradient(to right bottom, rgba(0, 255, 255, 0.51), rgba(0, 255, 0, 0.52));
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: 'Bangers', cursive;
+  font-size: 1.3rem;
+  text-align: center;
+}
+button:hover {
+  background-image: linear-gradient(to right bottom, rgba(0, 255, 255, 0.51),rgba(4, 120, 85, 0.54));
+  box-shadow: 2px 2px 4px black;
+}
+
+.user__input {
+  height: 5rem;
+  width: 20rem;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user__img,
+.computer__img {
+  padding-top: 4rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+.user__name__field {
+  height: 2rem;
+  width: 18rem;
+  font-family: 'Bangers', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.newgame__area {
+  height: 5rem;
+  width: 20rem;
+  padding-top: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.computer__side {
+  height: 35rem;
+  width: 17rem;
+  margin-top: 5rem;
+  background-image: linear-gradient(to right bottom, rgba(0, 255, 255, 0.51), rgba(0, 255, 0, 0.52));
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 3rem;
+}
+
+h2 {
+  padding-top: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+h3 {
+  padding-bottom: .5rem;
+}

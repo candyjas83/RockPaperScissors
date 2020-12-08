@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock|Paper|Scissors</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <section class="user__side">
+    <h2>Score:</h2>
+      <p class="user__score">0</p>
+    <h1 class="user__name">User</h1>
+    <div class="user__icon">
+      <img class="user__img" src="../img/SVG/basecamp.svg" alt="Icon">
+    </div>
+  </section>
+
+  <section class="message__center">
+    <div class="message__input">
+      <p class="game__message">Ready to play Rock, Paper, Scissors! First to 10 points wins!</p>
+    </div>
+    <div class="btn__selection">
+      <button class="button" id="rock"><ion-icon name="radio-button-off-outline"></ion-icon>Rock</button>
+      <button class="button" id="paper"><ion-icon name="paper-plane-outline"></ion-icon>Paper</button>
+      <button class="button" id="scissors"><ion-icon name="cut-outline"></ion-icon>Scissors</button>
+    </div>
+    <div class="user__input">
+      <h3>Enter player's name, then hit Start!</h3>
+      <input type="text" class="user__name__field"></input>
+    </div>
+    <div class="newgame__area">
+      <button class="startgame__btn">Start Game</button>
+      <button class="newgame__btn">New Game</button>
+      </div>
+    </section>
+
+  <section class="computer__side">
+    <h2>Score:</h2>
+    <p class="comp__score">0</p>
+    <h1>Computer</h1>
+    <div class="computer__icon">
+      <img class="computer__img" src="../img/SVG/basecamp.svg" alt="Icon">
+    </div>
+  </section>
+
+</div>
+
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
